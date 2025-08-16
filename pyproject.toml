@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-ulore"
+version = "250816"
+description = "A plug-in can edit lore for items."
+
+[project.entry-points."endstone"]
+ulore = "endstone_ulore:ulore"
